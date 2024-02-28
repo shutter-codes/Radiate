@@ -12662,16 +12662,18 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 */
 
 .slider-item{
+	padding: 0.8rem 0;
 	display: flex; 
-	justify-content: center; 
-	border-radius: 100%; 
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%; 
 	background-color: #212121; 
-	/* align-items: center; */
-}
-
-.slider-item a{
-	font-size: 1.3rem; 
 	color: aliceblue;
+	font-size: 1.3rem; 
+	font-weight: 700;
+	/* color: aliceblue; */
+	
+	/* align-items: center; */
 }
 
 .slick-slider {
