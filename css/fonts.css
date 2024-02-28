@@ -21,6 +21,8 @@
 
 
 @font-face {
+    font-family: 'Maden'; /*a name to be used later*/
+    src: url('../fonts/special/MADENZ.ttf'); /*URL to font*/
 	font-family: 'hacked';
 	src: url(../fonts/special/Hacked-KerX.ttf);
 }
@@ -30,11 +32,22 @@
   color: #ffffff;
 }
 
-.logospan{
-font-family: 'hacked';
-font-size: 1.2rem;
-letter-spacing: 5px;
+
+
+
+
+
+@font-face {
+	font-family: 'hacked';
+	src: url(../fonts/special/Hacked-KerX.ttf);
 }
+
+.logospan{
+	font-family: 'hacked';
+	font-size: 1.2rem;
+	letter-spacing: 5px;
+}
+
 
 .fa {
   display: inline-block;
