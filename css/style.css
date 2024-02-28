@@ -1133,18 +1133,6 @@ html [class*='section-'].section-bottom-0 {
 	display: none;
 }
 
-.logo{
-	font-family: 'Maden', sans-serif;
-	font-size: 1.8rem;
-	color: aliceblue;
-	letter-spacing: 4px;
-}
-
-.logo span{
-	font-size: 0.8rem;
-	line-height: 3;
-}
-
 .context-dark .brand .brand-logo-light, .bg-gray-700 .brand .brand-logo-light, .bg-gray-900 .brand .brand-logo-light, .bg-primary .brand .brand-logo-light {
 	display: block;
 }
@@ -6365,6 +6353,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle.active span:after {
 	-webkit-transform: rotate3d(0, 0, 1, 40deg);
 	transform: rotate3d(0, 0, 1, 40deg);
+	
 }
 
 .rd-navbar-collapse-toggle {
@@ -7923,11 +7912,6 @@ html.rd-navbar-fixed-linked .page {
 	padding: 0;
 	/* Fix of Webkit flickering */
 	z-index: 1;
-}
-
-.swiper-head{
-	font-family: 'Maden', sans-serif;
-	letter-spacing: 3px;
 }
 
 .swiper-container-no-flexbox .swiper-slide {
