@@ -12676,6 +12676,20 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 *
 * Slick Carousel
 */
+
+.slider-item{
+	display: flex; 
+	justify-content: center; 
+	border-radius: 100%; 
+	background-color: #212121; 
+	/* align-items: center; */
+}
+
+.slider-item a{
+	font-size: 1.3rem; 
+	color: aliceblue;
+}
+
 .slick-slider {
 	position: relative;
 	display: block;
@@ -12709,6 +12723,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .slick-loading .slick-list {
 	background: #ffffff slick-image-url("../images/ajax-loader.gif") center center no-repeat;
+	
 }
 
 .slick-slider .slick-track,
@@ -12908,7 +12923,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	width: 20px;
 	height: 20px;
 	font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	font-size: 6px;
+	font-size: 8px;
 	line-height: 20px;
 	text-align: center;
 	color: black;
