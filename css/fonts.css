@@ -51,15 +51,17 @@
 @media screen and (max-width: 768px) {
 	.logospan{
 		font-size: 1rem;
-	color: #d90e90;
+	/* color: #d90e90; */
 	
 	}
 
 	.logoFont {
 
 		font-size: 1.5rem;
-		color: #822ea8;
+		/* color: #822ea8; */
 	}
+
+
 	
 }
 
