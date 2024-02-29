@@ -13259,6 +13259,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	display: none;
 }
 
+
+
 @media (min-width: 576px) {
 	.parallax-js .layer {
 		display: block;
