@@ -6919,7 +6919,7 @@ html.tablet .ui-to-top {
 	line-height: 34px;
 	transform: translateX(-110%);
 	color: #ffffff;
-	background: #ffffff;
+	background: #131429;
 	border: 1px solid #f8f7f4;
 	box-shadow: none;
 }
@@ -6976,7 +6976,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-nav-link, .rd-navbar-fixed .rd-nav-link:not([href]) {
-	color: #8b8b9a;
+	color: #eeebeb;
 }
 
 .rd-navbar-fixed li.opened > .rd-navbar-dropdown {
