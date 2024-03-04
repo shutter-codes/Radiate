@@ -3646,7 +3646,7 @@ textarea.form-input {
 	cursor: pointer;
 }
 
-.toggle-custom ~ .checkbox-custom-dummy::after {
+.toggle-custom   	~ .checkbox-custom-dummy::after {
 	content: '';
 	position: absolute;
 	display: inline-block;
